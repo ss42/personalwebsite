@@ -443,7 +443,8 @@
                     </div>
                     <div class="modal-body">
                       <div class="col-lg-6">
-                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <div id="myCarousel" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+ class="carousel slide" data-ride="carousel">
                               <!-- Carousel indicators -->
                             <ol class="carousel-indicators">
                                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -708,7 +709,12 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
+    <!-- changes the carousel speed-->
+    <script>
+      $('.carousel').carousel({
+       interval: 1000
+      });
+     </script>
     <!-- Plugin JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/jquery.fittext.js"></script>
