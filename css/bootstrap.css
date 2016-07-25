@@ -3112,7 +3112,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-success {
   color: #313133;
   background-color: #FAFAFA;
-  border-color: #4cae4c;
+  border-color: #7F7E7A;  /*light gray*/
 }
 .btn-success:hover,
 .btn-success:focus,
@@ -3121,7 +3121,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-success.active,
 .open > .dropdown-toggle.btn-success {
   color: #313133;
-  background-color: #449d44;
+  background-color: #7F7E7A;
   border-color: #398439;
 }
 .btn-success:active,
@@ -5713,6 +5713,8 @@ button.close {
   overflow: hidden;
   -webkit-overflow-scrolling: touch;
   outline: 0;
+  
+  
 }
 .modal.fade .modal-dialog {
   -webkit-transition: -webkit-transform .3s ease-out;
@@ -5735,8 +5737,7 @@ button.close {
 }
 .modal-dialog {
   position: relative;
-  width: auto;
-  margin: 10px;
+
 }
 .modal-content {
   position: relative;
@@ -5779,12 +5780,13 @@ button.close {
 }
 .modal-body {
   position: relative;
-  padding: 15px;
+  padding: 10px;
+
 }
 .modal-footer {
   padding: 15px;
   text-align: right;
-  border-top: 1px solid #313133;
+  border-top: 1px solid #7F7E7A;
 }
 .modal-footer .btn + .btn {
   margin-bottom: 0;
@@ -6050,6 +6052,8 @@ button.close {
 .carousel {
   position: relative;
   padding-bottom: 70px;
+  width: 200px;
+  height: 500px;
 }
 .carousel-inner {
   position: relative;

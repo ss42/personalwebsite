@@ -88,7 +88,7 @@ aside {
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
   color: #313133 !important;
-  background-color: transparent;
+  background-color: #7F7E7A; /*light gray*/
 }
 .navbar-default .nav > li.active > a:hover,
 .navbar-default .nav > li.active > a:focus:hover {
@@ -415,12 +415,17 @@ body {
   content: "\f099";
 }
 .description-padding{
-  padding: 15px;
+  padding-left: 50px;
   font-size: 11px;
 }
 .customtextsize {
   font-size: 2em; /* effective sizes: big: 3em, small: 1em */
 }
 .project-padding{
-  padding: 40px;
+  padding: 20px;
+}
+.project-extraPadding{
+  width: 75%;
+  height: 75%;
+  padding: 20px;
 }
