@@ -5289,7 +5289,7 @@ a.list-group-item-danger.active:focus {
 }
 .panel {
   margin-bottom: 20px;
-  background-color: #313133;
+  background-color: #FAFAFA;
   border: 1px solid transparent;
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
@@ -5522,7 +5522,7 @@ a.list-group-item-danger.active:focus {
   border-color: #ddd;
 }
 .panel-default > .panel-heading {
-  color: #333;
+  color: #313131;
   background-color: #f5f5f5;
   border-color: #ddd;
 }
@@ -5530,7 +5530,7 @@ a.list-group-item-danger.active:focus {
   border-top-color: #ddd;
 }
 .panel-default > .panel-heading .badge {
-  color: #f5f5f5;
+  color: #7F7E7A;
   background-color: #333;
 }
 .panel-default > .panel-footer + .panel-collapse > .panel-body {
@@ -5540,7 +5540,7 @@ a.list-group-item-danger.active:focus {
   border-color: #d2c9d9;
 }
 .panel-primary > .panel-heading {
-  color: #313133;
+  color: #7F7E7A;
   background-color: #d2c9d9;
   border-color: #d2c9d9;
 }
@@ -5548,25 +5548,25 @@ a.list-group-item-danger.active:focus {
   border-top-color: #d2c9d9;
 }
 .panel-primary > .panel-heading .badge {
-  color: #d2c9d9;
+  color: #7F7E7A;
   background-color: #313133;
 }
 .panel-primary > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #d2c9d9;
 }
 .panel-success {
-  border-color: #d6e9c6;
+  border-color: #7F7E7A;
 }
 .panel-success > .panel-heading {
-  color: #3c763d;
+  color: #7F7E7A;
   background-color: #dff0d8;
   border-color: #d6e9c6;
 }
 .panel-success > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #d6e9c6;
+  border-top-color: #7F7E7A;
 }
 .panel-success > .panel-heading .badge {
-  color: #dff0d8;
+  color: #7F7E7A;
   background-color: #3c763d;
 }
 .panel-success > .panel-footer + .panel-collapse > .panel-body {
@@ -5581,14 +5581,14 @@ a.list-group-item-danger.active:focus {
   border-color: #bce8f1;
 }
 .panel-info > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #bce8f1;
+  border-top-color: #7F7E7A;
 }
 .panel-info > .panel-heading .badge {
   color:#BFBCB8;
   background-color: #31708f;
 }
 .panel-info > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #bce8f1;
+  border-bottom-color: #7F7E7A;
 }
 .panel-warning {
   border-color: #faebcc;
@@ -5599,7 +5599,7 @@ a.list-group-item-danger.active:focus {
   border-color: #faebcc;
 }
 .panel-warning > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #faebcc;
+  border-top-color: #7F7E7A;
 }
 .panel-warning > .panel-heading .badge {
   color: #C8C8D7;
@@ -5807,7 +5807,7 @@ button.close {
 }
 @media (min-width: 768px) {
   .modal-dialog {
-    width: 600px;
+    width: 60%;
     margin: 30px auto;
   }
   .modal-content {
@@ -6051,9 +6051,9 @@ button.close {
 }
 .carousel {
   position: relative;
-  padding-bottom: 70px;
-  width: 200px;
-  height: 500px;
+  padding-bottom: 10px;
+ /* width: 200px;
+  height: 500px;*/
 }
 .carousel-inner {
   position: relative;
