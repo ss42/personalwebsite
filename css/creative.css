@@ -1,3 +1,6 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
 html,
 body {
   height: 100%;
@@ -18,11 +21,11 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #73AFB6;
+  color: #313133;
 }
 a:hover,
 a:focus {
-  color: #549aa2;
+  color: #313133;
 }
 h1,
 h2,
@@ -429,4 +432,72 @@ body {
   height: 75%;
   padding: 20px;
   margin: auto;
+}
+.fa-linkedin {
+  padding:10px 11px 8px 11px;
+  -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+        border: 1px solid white;
+
+}
+
+.fa-linkedin:hover {
+  background-color: #0073a4;
+}
+.fa-facebook {
+  padding:10px 14px 7px 14px;
+  -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #313133;
+        border: 1px solid white;
+
+}
+
+.fa-facebook:hover {
+  background-color: #3d5b99;
+}
+.social-icon {
+  color: #fff;
+  width: inherit;
+  display: block;
+  margin: 0 auto;
+}
+
+ul.social-icons { 
+  margin-top: 10px;
+
+}
+
+.social-icons li {
+  vertical-align: top;
+  display: inline;
+
+}
+
+.social-icons a {
+  color: #fff; 
+  text-decoration: none;
+}
+
+.fa-github {
+  padding:10px 14px 7px 14px;
+  -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #313133;
+    border: 1px solid white;
+
+}
+
+.fa-github:hover {
+  background-color: #313133;
 }
