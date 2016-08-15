@@ -400,7 +400,10 @@ body {
   webkit-tap-highlight-color: #73AFB6;
 }
 .myimage img {
-  border-radius: 320px;
+  /*border-radius: 320px;*/
+  border-radius: 15px;
+  width: 300px;
+  height: 325px;
   color: #FAFAFA;
 }
 .text-faded.blacktext {
