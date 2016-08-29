@@ -402,8 +402,11 @@ body {
 .myimage img {
   /*border-radius: 320px;*/
   border-radius: 15px;
-  width: 300px;
-  height: 325px;
+  max-width:252.5px;
+  max-height:325px;
+  width: auto;
+  height: auto;
+
   color: #FAFAFA;
 }
 .text-faded.blacktext {
@@ -473,7 +476,7 @@ body {
   margin: 0 auto;
 }
 
-ul.social-icons { 
+ul.social-icons {
   margin-top: 10px;
 
 }
@@ -485,7 +488,7 @@ ul.social-icons {
 }
 
 .social-icons a {
-  color: #fff; 
+  color: #fff;
   text-decoration: none;
 }
 
