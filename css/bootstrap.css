@@ -1117,6 +1117,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  margin: 0 auto;
 }
 .img-rounded {
   border-radius: 6px;
@@ -5713,8 +5714,8 @@ button.close {
   overflow: hidden;
   -webkit-overflow-scrolling: touch;
   outline: 0;
-  
-  
+
+
 }
 .modal.fade .modal-dialog {
   -webkit-transition: -webkit-transform .3s ease-out;
@@ -6223,7 +6224,7 @@ button.close {
   text-indent: -999px;
   cursor: pointer;
   background-color: #FAFAFA;   /*73AFB6- oldcolor*/
-  
+
   border: 1px solid #313133;
   border-radius: 10px;
 }
